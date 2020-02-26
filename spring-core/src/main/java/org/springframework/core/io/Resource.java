@@ -57,7 +57,7 @@ public interface Resource extends InputStreamSource {
 	 * existence of a {@code Resource} handle only guarantees a valid
 	 * descriptor handle.
 	 */
-	boolean exists();
+	boolean exists(); //资源是否存在
 
 	/**
 	 * Indicate whether non-empty contents of this resource can be read via
@@ -71,6 +71,7 @@ public interface Resource extends InputStreamSource {
 	 * @see #exists()
 	 */
 	default boolean isReadable() {
+		//资源是否可读
 		return exists();
 	}
 
