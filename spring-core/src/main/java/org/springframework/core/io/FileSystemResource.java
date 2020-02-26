@@ -54,7 +54,11 @@ import org.springframework.util.StringUtils;
  * @see #FileSystemResource(Path)
  * @see java.io.File
  * @see java.nio.file.Files
+ *
+ * 从spring5.0开始,FileSystemResource使用NIO2 进行读写交互
  */
+
+
 public class FileSystemResource extends AbstractResource implements WritableResource {
 
 	private final String path;

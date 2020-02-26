@@ -45,11 +45,22 @@ import org.springframework.lang.Nullable;
  * @see org.springframework.core.io.UrlResource
  * @see org.springframework.core.io.ResourceLoader
  */
+
+/**
+ * @author 注释作者Ning
+ * @Date 2020/2/26 20:04
+ * 今天不一定能看完  先把TODO 立起来
+ * TODO
+ */
+
 public abstract class ResourceUtils {
 
+	//假url 前缀  发现一个很普遍的问题  spring 框架创始人 Juergen Hoeller
+	// 贼喜欢先假设在写 可以借鉴这种写法
 	/** Pseudo URL prefix for loading from the class path: "classpath:". */
 	public static final String CLASSPATH_URL_PREFIX = "classpath:";
 
+	//就是说从什么地方搞一个什么url前缀 下面雷同 不一样的会另外加注释
 	/** URL prefix for loading from the file system: "file:". */
 	public static final String FILE_URL_PREFIX = "file:";
 
@@ -59,6 +70,7 @@ public abstract class ResourceUtils {
 	/** URL prefix for loading from a war file on Tomcat: "war:". */
 	public static final String WAR_URL_PREFIX = "war:";
 
+	//就是说为从什么地方拟定一个什么东西  给url
 	/** URL protocol for a file in the file system: "file". */
 	public static final String URL_PROTOCOL_FILE = "file";
 
@@ -100,6 +112,8 @@ public abstract class ResourceUtils {
 	 * @return whether the location qualifies as a URL
 	 * @see #CLASSPATH_URL_PREFIX
 	 * @see java.net.URL
+	 *
+	 * 就是看一个地方（我理解成路径）的资源是否为URL
 	 */
 	public static boolean isUrl(@Nullable String resourceLocation) {
 		if (resourceLocation == null) {
@@ -113,6 +127,7 @@ public abstract class ResourceUtils {
 			return true;
 		}
 		catch (MalformedURLException ex) {
+			//这个异常名字很有意思
 			return false;
 		}
 	}
@@ -125,11 +140,15 @@ public abstract class ResourceUtils {
 	 * "classpath:" pseudo URL, a "file:" URL, or a plain file path
 	 * @return a corresponding URL object
 	 * @throws FileNotFoundException if the resource cannot be resolved to a URL
+	 *
+	 * 将给定资源的位置解析为url  在这里 并不会对url 是否真实存在作判断，
 	 */
 	public static URL getURL(String resourceLocation) throws FileNotFoundException {
+		//断言判断
 		Assert.notNull(resourceLocation, "Resource location must not be null");
 		if (resourceLocation.startsWith(CLASSPATH_URL_PREFIX)) {
 			String path = resourceLocation.substring(CLASSPATH_URL_PREFIX.length());
+			//ClassUtils 哇 类加载器都来了 有时间可以研究一哈 先 TODO
 			ClassLoader cl = ClassUtils.getDefaultClassLoader();
 			URL url = (cl != null ? cl.getResource(path) : ClassLoader.getSystemResource(path));
 			if (url == null) {
