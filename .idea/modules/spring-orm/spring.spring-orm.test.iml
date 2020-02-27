@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="FacetManager">
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <datasource-mapping>
+          <factory-entry name="EmptyExcludeElement" />
+          <factory-entry name="FalseExcludeElement" />
+          <factory-entry name="NoExcludeElement" />
+          <factory-entry name="TrueExcludeElement" />
+        </datasource-mapping>
+        <naming-strategy-map />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/../../../spring-orm/src/test/resources/org/springframework/orm/jpa/persistence-exclude-1.0.xml" />
+      </configuration>
+    </facet>
+  </component>
+</module>
