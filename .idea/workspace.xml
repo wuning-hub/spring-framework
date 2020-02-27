@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711dcf1f-43fe-4026-9391-f73c747e68d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/不读我就是辣鸡.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/DefaultResourceLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/DefaultResourceLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/ResourceLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/ResourceLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/不读我就是辣鸡.md" beforeDir="false" afterPath="$PROJECT_DIR$/不读我就是辣鸡.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +61,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1YCsjLzfbEgGcv2nJDB99d41vpA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -107,7 +112,8 @@
       <workItem from="1582679394888" duration="14832000" />
       <workItem from="1582765004798" duration="314000" />
       <workItem from="1582765436604" duration="240000" />
-      <workItem from="1582765746753" duration="4764000" />
+      <workItem from="1582765746753" duration="5668000" />
+      <workItem from="1582800610259" duration="7275000" />
     </task>
     <task id="LOCAL-00001" summary="Resource类加注释 测试是否可提交">
       <created>1582680441073</created>
@@ -123,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582723794714</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="今天把spring-core 中的resource 及其子类AbstractResource 过完  ResourceUtils 看了一部分 其实百度应该直接有API  明天去查一下  明日 FileSystemResource、ByteArrayResource ，如果可能有时间的话 加ResourceLoader（既然有了资源 就该加载了）">
+      <created>1582785799317</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582785799318</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,14 +160,18 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2472" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582715520844" />
+    <state x="2685" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1582805169939">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2685" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582805169939" />
     <state x="2560" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582467343420">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2560" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582467343420" />
-    <state x="2457" y="116" key="CommitChangelistDialog2" timestamp="1582723793263">
+    <state x="1920" y="116" key="CommitChangelistDialog2" timestamp="1582785783284">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2457" y="116" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582723793263" />
+    <state x="1920" y="116" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582785783284" />
     <state x="2104" y="92" key="DiffContextDialog" timestamp="1582680410629">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -171,10 +188,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2383" y="165" width="1333" height="709" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582722921786" />
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1582723797168">
+    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1582785806175">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582723797168" />
+    <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582785806175" />
     <state x="2572" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1582765750210">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -187,9 +204,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582723152540" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582716499548">
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582800742557">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582716499548" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582800742557" />
   </component>
 </project>

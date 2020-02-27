@@ -45,7 +45,19 @@ import org.springframework.util.StringUtils;
  * @see FileSystemResourceLoader
  * @see org.springframework.context.support.ClassPathXmlApplicationContext
  */
+
+/**
+ * @author 注释作者Ning
+ * @Date 2020/2/27 20:06
+ *
+ * 这个玩意 看名字就知道了 是ResourceLoader 的默认实现了
+ */
 public class DefaultResourceLoader implements ResourceLoader {
+
+	/**
+	 *   一上来就   private ClassLoader classLoader，是不是很熟，兄弟  你猜对了 马上空参 带参  get  set  就来了
+	 *   下面直接跳过  去重点 getResource（）
+	 */
 
 	@Nullable
 	private ClassLoader classLoader;
@@ -54,21 +66,28 @@ public class DefaultResourceLoader implements ResourceLoader {
 
 	private final Map<Class<?>, Map<Resource, ?>> resourceCaches = new ConcurrentHashMap<>(4);
 
-
 	/**
 	 * Create a new DefaultResourceLoader.
 	 * <p>ClassLoader access will happen using the thread context class loader
 	 * at the time of this ResourceLoader's initialization.
+	 * 初始化的时候 默认使用的是  thread context class loader    也就是 Thread.currentThread()#getContextClassLoader()这个
+	 * 人家注释写的很明白哈  看！！！！
 	 * @see java.lang.Thread#getContextClassLoader()
 	 */
 	public DefaultResourceLoader() {
+
 		this.classLoader = ClassUtils.getDefaultClassLoader();
 	}
+
+
 
 	/**
 	 * Create a new DefaultResourceLoader.
 	 * @param classLoader the ClassLoader to load class path resources with, or {@code null}
 	 * for using the thread context class loader at the time of actual resource access
+	 *在使用带参数的构造函数时，可以通过 ClassUtils#getDefaultClassLoader()获取。这句话复制的
+	 *
+	 *  ClassLoader defaultClassLoader = ClassUtils.getDefaultClassLoader();
 	 */
 	public DefaultResourceLoader(@Nullable ClassLoader classLoader) {
 		this.classLoader = classLoader;
@@ -111,6 +130,7 @@ public class DefaultResourceLoader implements ResourceLoader {
 	}
 
 	/**
+	 * 返回当前注册解析器的结合  允许自行更正与修改
 	 * Return the collection of currently registered protocol resolvers,
 	 * allowing for introspection as well as modification.
 	 * @since 4.3
@@ -140,11 +160,29 @@ public class DefaultResourceLoader implements ResourceLoader {
 	}
 
 
+
+	/**
+	 * 这个没注释  我来写（重点来了）
+	 * @param location the resource location
+	 * @return
+	 *
+	 * DefaultResourceLoader 的子类 并没有对这个方法实现进行重写覆盖,所以可以断定
+	 * ResourceLoader 的核心资源加载策略就封装在这里
+	 *
+	 */
 	@Override
 	public Resource getResource(String location) {
+		/**
+		 * 一上来断言搞一下 判断location不能为空  顺便把这个断言说一下
+		 * Assert:  很像if()else{}  但是 不一样的是
+		 * 大多数情况下，我们要进行验证的假设，只是属于偶然性事件，又或者我们仅仅想测试一下，一些最坏情况是否发生，所以这里有了 assert()。
+		 * assert 宏的原型定义在 assert.h 中，其作用是如果它的条件返回错误，则终止程序执行。
+		 * 开销比较大 而且只在debug生效好像  就是调试用的
+		*/
 		Assert.notNull(location, "Location must not be null");
 
 		for (ProtocolResolver protocolResolver : getProtocolResolvers()) {
+			// 首先通过ProtocolResolver(已经拟定的解析器)来 解析资源地址 以获得资源
 			Resource resource = protocolResolver.resolve(location, this);
 			if (resource != null) {
 				return resource;
@@ -152,18 +190,26 @@ public class DefaultResourceLoader implements ResourceLoader {
 		}
 
 		if (location.startsWith("/")) {
+			//如果location以"/"开头  获得资源 其实
+			//getResourceByPath 调用 ClassPathContextResource
+			//ClassPathContextResource 调用 其父类 ClassPathResource的 ClassPathResource方法
+			// 然后再StringUtils.cleanPath方法  清理路径
+			//然后再截取1位 再拿着类加载器 去加载 里面具体是个三元表达式
 			return getResourceByPath(location);
 		}
 		else if (location.startsWith(CLASSPATH_URL_PREFIX)) {
+			//开头是否为 classpath:
 			return new ClassPathResource(location.substring(CLASSPATH_URL_PREFIX.length()), getClassLoader());
 		}
 		else {
 			try {
 				// Try to parse the location as a URL...
+				//// 然后，根据是否为文件 URL ，是则返回 FileUrlResource 类型的资源，否则返回 UrlResource 类型的资源
 				URL url = new URL(location);
 				return (ResourceUtils.isFileURL(url) ? new FileUrlResource(url) : new UrlResource(url));
 			}
 			catch (MalformedURLException ex) {
+				// 最后，返回 ClassPathContextResource 类型的资源
 				// No URL -> resolve as resource path.
 				return getResourceByPath(location);
 			}

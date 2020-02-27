@@ -77,7 +77,7 @@ public interface Resource extends InputStreamSource {
 	 * <p>This method performs a definitive existence check, whereas the
 	 * existence of a {@code Resource} handle only guarantees a valid
 	 * descriptor handle.
-	 * 资源是否存在
+	 * 什么判断资源是不是真的以物理形式存在  说人话就是到底这个玩意是否存在
 	 */
 	boolean exists();
 
