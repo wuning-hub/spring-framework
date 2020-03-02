@@ -62,6 +62,7 @@ public class DefaultResourceLoader implements ResourceLoader {
 	@Nullable
 	private ClassLoader classLoader;
 
+	//ProtocolResolver 集合
 	private final Set<ProtocolResolver> protocolResolvers = new LinkedHashSet<>(4);
 
 	private final Map<Class<?>, Map<Resource, ?>> resourceCaches = new ConcurrentHashMap<>(4);
@@ -117,6 +118,8 @@ public class DefaultResourceLoader implements ResourceLoader {
 	}
 
 	/**
+	 *
+	 *
 	 * Register the given resolver with this resource loader, allowing for
 	 * additional protocols to be handled.
 	 * <p>Any such resolver will be invoked ahead of this loader's standard
@@ -215,6 +218,18 @@ public class DefaultResourceLoader implements ResourceLoader {
 			}
 		}
 	}
+	/**
+	 * @author 注释作者Ning
+	 * @Date 2020/3/2 18:17
+	 * 好了,整体说一下getResource()方法,
+	 * 1.首先通过ProtocolResolver来加载资源,成功的话就返回Resource
+	 * 2.其次,若location以"/"开头,则调用#getResourceByPath()方法,构造ClassPathResource类型资源返回,在构造资源的时候
+	 * 通过getClassloader()获取当前的ClassLoader.
+	 * 3.然后,构造URL,尝试通过它进行资源定位,若没有抛出MalformedURLException异常,则判断是否为FileURL,
+	 * 如果是就构造FileUrlResource,否则构造UrlResource类型的资源.
+	 * 4.最后在加载过程中抛出MalformedURLException异常,则委派getResourceByPath()方法,实现资源定位
+	 */
+
 
 	/**
 	 * Return a Resource handle for the resource at the given path.

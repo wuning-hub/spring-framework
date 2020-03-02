@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711dcf1f-43fe-4026-9391-f73c747e68d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/DefaultResourceLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/DefaultResourceLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/Resource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/ResourceLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/ResourceLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/ProtocolResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/ProtocolResolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/不读我就是辣鸡.md" beforeDir="false" afterPath="$PROJECT_DIR$/不读我就是辣鸡.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,6 +116,8 @@
       <workItem from="1582765436604" duration="240000" />
       <workItem from="1582765746753" duration="5668000" />
       <workItem from="1582800610259" duration="7528000" />
+      <workItem from="1582851136614" duration="379000" />
+      <workItem from="1583139623136" duration="6486000" />
     </task>
     <task id="LOCAL-00001" summary="Resource类加注释 测试是否可提交">
       <created>1582680441073</created>
@@ -176,34 +180,38 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2560" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582467343420" />
-    <state x="1920" y="116" key="CommitChangelistDialog2" timestamp="1582811588180">
+    <state x="1920" y="116" key="CommitChangelistDialog2" timestamp="1582811872688">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="1920" y="116" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582811588180" />
+    <state x="1920" y="116" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582811872688" />
     <state x="2104" y="92" key="DiffContextDialog" timestamp="1582680410629">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2104" y="92" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582680410629" />
-    <state x="2660" y="269" key="FileChooserDialogImpl" timestamp="1582785668444">
+    <state x="2660" y="269" key="FileChooserDialogImpl" timestamp="1583143441075">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="269" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582785668444" />
+    <state x="2660" y="269" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583143441075" />
     <state x="2460" y="258" key="IDE.errors.dialog" timestamp="1582467328112">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2460" y="258" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582467328112" />
+    <state x="2520" y="224" key="NewModule_or_Project.wizard" timestamp="1583143282374">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2520" y="224" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583143282374" />
     <state x="2383" y="165" width="1333" height="709" key="SettingsEditor" timestamp="1582722921786">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2383" y="165" width="1333" height="709" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582722921786" />
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1582811592237">
+    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1582811878904">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582811592237" />
-    <state x="2572" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1582811816252">
+    <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582811878904" />
+    <state x="2572" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1582851136841">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2572" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582811816252" />
+    <state x="2572" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582851136841" />
     <state x="2254" y="228" key="new project wizard" timestamp="1582766165431">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -212,9 +220,9 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582723152540" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582800742557">
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583143587825">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582800742557" />
+    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583143587825" />
   </component>
 </project>
