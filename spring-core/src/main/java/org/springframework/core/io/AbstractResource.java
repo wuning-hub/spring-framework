@@ -69,8 +69,6 @@ public abstract class AbstractResource implements Resource {
 				//基于File进行判断  抛出不能解析绝对路径的异常(进入File类调用SecurityManager继续判断,)
 				return getFile().exists();
 			} catch (IOException ex) {
-
-
 				Log logger = LogFactory.getLog(getClass());
 				if (logger.isDebugEnabled()) {
 					logger.debug("Could not retrieve File for existence check of " + getDescription(), ex);
@@ -188,7 +186,8 @@ public abstract class AbstractResource implements Resource {
 		InputStream is = getInputStream();
 		try {
 			long size = 0;
-			byte[] buf = new byte[256]; //每次256字节
+			//每次256字节
+			byte[] buf = new byte[256];
 			int read;
 			while ((read = is.read(buf)) != -1) {
 				size += read;

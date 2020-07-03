@@ -1,14 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:issues" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="711dcf1f-43fe-4026-9391-f73c747e68d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/spring-core/src/test/java/org/springframework/util/own/CleanPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/workspace-id.txt.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/5.6.4/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/DefaultResourceLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/DefaultResourceLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/ProtocolResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/ProtocolResolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/不读我就是辣鸡.md" beforeDir="false" afterPath="$PROJECT_DIR$/不读我就是辣鸡.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/pluginUnderTestMetadata/plugin-under-test-metadata.properties" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/pluginUnderTestMetadata/plugin-under-test-metadata.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/build/classes/java/main/org/springframework/aop/aspectj/AbstractAspectJAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/build/classes/java/main/org/springframework/aop/aspectj/AbstractAspectJAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/build/classes/java/main/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/build/classes/java/main/org/springframework/aop/aspectj/annotation/ReflectiveAspectJAdvisorFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/build/classes/java/main/org/springframework/aop/interceptor/AsyncExecutionAspectSupport.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/build/classes/java/main/org/springframework/aop/interceptor/AsyncExecutionAspectSupport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/build/classes/java/main/org/springframework/aop/support/AopUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/build/classes/java/main/org/springframework/aop/support/AopUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/build/libs/spring-aop-5.2.4.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/build/libs/spring-aop-5.2.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-aop/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/spring-aop/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/BeanUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/BeanUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/ExtendedBeanInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/ExtendedBeanInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/annotation/QualifierAnnotationAutowireCandidateResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/annotation/QualifierAnnotationAutowireCandidateResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/config/BeanDefinitionVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/config/BeanDefinitionVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/config/DependencyDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/config/DependencyDescriptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/groovy/GroovyBeanDefinitionReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/groovy/GroovyBeanDefinitionReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/support/AbstractBeanDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/support/AbstractBeanDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/support/AbstractBeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/support/AbstractBeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/support/ConstructorResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/support/ConstructorResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/support/StaticListableBeanFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/support/StaticListableBeanFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/classes/groovy/main/org/springframework/beans/factory/xml/BeanDefinitionParserDelegate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/libs/spring-beans-5.2.4.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/libs/spring-beans-5.2.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-beans/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/spring-beans/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/cache/interceptor/CacheAspectSupport.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/cache/interceptor/CacheAspectSupport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/annotation/AdviceMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/annotation/AdviceMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/annotation/AnnotationConfigUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/annotation/AnnotationConfigUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/annotation/ComponentScanBeanDefinitionParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/annotation/ComponentScanBeanDefinitionParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/annotation/ConfigurationCondition$ConfigurationPhase.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/annotation/ConfigurationCondition$ConfigurationPhase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/event/AbstractApplicationEventMulticaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/event/AbstractApplicationEventMulticaster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/event/EventListenerMethodProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/event/EventListenerMethodProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/support/AbstractApplicationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/support/AbstractApplicationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/support/LiveBeansView.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/context/support/LiveBeansView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/jmx/export/assembler/MetadataMBeanInfoAssembler.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/jmx/export/assembler/MetadataMBeanInfoAssembler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/jmx/support/MetricType.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/jmx/support/MetricType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/scheduling/concurrent/ThreadPoolTaskScheduler.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/scheduling/concurrent/ThreadPoolTaskScheduler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/validation/AbstractBindingResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/java/main/org/springframework/validation/AbstractBindingResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/kotlin/main/org/springframework/context/support/BeanDefinitionDsl.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/kotlin/main/org/springframework/context/support/BeanDefinitionDsl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/kotlin/main/org/springframework/ui/ModelExtensionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/kotlin/main/org/springframework/ui/ModelExtensionsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/classes/kotlin/main/org/springframework/ui/ModelMapExtensionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/classes/kotlin/main/org/springframework/ui/ModelMapExtensionsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/libs/spring-context-5.2.4.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/libs/spring-context-5.2.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-context/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/spring-context/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/asm/ClassReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/asm/ClassReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/cglib/proxy/Enhancer.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/cglib/proxy/Enhancer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/NestedCheckedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/NestedCheckedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/NestedRuntimeException.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/NestedRuntimeException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/ResolvableType$WildcardBounds$Kind.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/ResolvableType$WildcardBounds$Kind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/ResolvableType.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/ResolvableType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/annotation/MergedAnnotationCollectors.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/annotation/MergedAnnotationCollectors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/codec/ResourceRegionEncoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/codec/ResourceRegionEncoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/codec/StringDecoder.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/codec/StringDecoder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/env/AbstractEnvironment.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/env/AbstractEnvironment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/env/ProfilesParser$Operator.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/env/ProfilesParser$Operator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/AbstractResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/AbstractResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/DefaultResourceLoader$ClassPathContextResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/DefaultResourceLoader$ClassPathContextResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/DefaultResourceLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/DefaultResourceLoader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/FileSystemResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/FileSystemResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/buffer/DefaultDataBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/buffer/DefaultDataBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/buffer/NettyDataBuffer.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/buffer/NettyDataBuffer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/support/PathMatchingResourcePatternResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/io/support/PathMatchingResourcePatternResolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/type/classreading/AnnotationMetadataReadingVisitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/core/type/classreading/AnnotationMetadataReadingVisitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/AntPathMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/AntPathMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/ConcurrentReferenceHashMap$ReferenceType.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/ConcurrentReferenceHashMap$ReferenceType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/ConcurrentReferenceHashMap$Restructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/ConcurrentReferenceHashMap$Restructure.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/MimeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/MimeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/ResourceUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/ResourceUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/StringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/StringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/xml/AbstractStaxXMLReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/xml/AbstractStaxXMLReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/xml/StaxEventXMLReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/classes/java/main/org/springframework/util/xml/StaxEventXMLReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/libs/spring-core-5.2.4.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/libs/spring-core-5.2.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/tmp/cglibRepackJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/tmp/cglibRepackJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/build/tmp/objenesisRepackJar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/build/tmp/objenesisRepackJar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/kotlin-coroutines/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/AbstractResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/AbstractResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/Resource.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-core/src/main/java/org/springframework/core/io/Resource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-expression/build/classes/java/main/org/springframework/expression/spel/ast/Indexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-expression/build/classes/java/main/org/springframework/expression/spel/ast/Indexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-expression/build/classes/java/main/org/springframework/expression/spel/standard/InternalSpelExpressionParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-expression/build/classes/java/main/org/springframework/expression/spel/standard/InternalSpelExpressionParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-expression/build/libs/spring-expression-5.2.4.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-expression/build/libs/spring-expression-5.2.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-expression/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/spring-expression/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-instrument/build/libs/spring-instrument-5.2.4.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-instrument/build/libs/spring-instrument-5.2.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-instrument/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/spring-instrument/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jcl/build/libs/spring-jcl-5.2.4.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jcl/build/libs/spring-jcl-5.2.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-jcl/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/spring-jcl/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oxm/build/classes/java/test/org/springframework/oxm/jaxb/Jaxb2UnmarshallerTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oxm/build/classes/java/test/org/springframework/oxm/jaxb/Jaxb2UnmarshallerTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oxm/build/libs/spring-oxm-5.2.4.BUILD-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oxm/build/libs/spring-oxm-5.2.4.BUILD-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-oxm/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/spring-oxm/build/tmp/jar/MANIFEST.MF" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,14 +188,76 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/spring-oxm">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="spring-oxm" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="spring-oxm" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="spring-oxm" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="spring-oxm" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="help" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="spring-oxm" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="publishing" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="spring" type="f1a62948:ProjectNode" />
+                <item name="spring-oxm" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,38 +278,84 @@
   <component name="ProjectId" id="1YCsjLzfbEgGcv2nJDB99d41vpA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\spring-framework" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunManager" selected="Gradle.CleanPathTest.cleanPath">
+    <configuration name="CleanPathTest.cleanPath" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;org.springframework.util.own.CleanPathTest.cleanPath&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":spring-core:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring-framework:spring-oxm [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/spring-oxm" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <item itemvalue="Gradle.CleanPathTest.cleanPath" />
+        <item itemvalue="Gradle.spring-framework:spring-oxm [test]" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -118,6 +377,11 @@
       <workItem from="1582800610259" duration="7528000" />
       <workItem from="1582851136614" duration="379000" />
       <workItem from="1583139623136" duration="6486000" />
+      <workItem from="1592218377553" duration="3745000" />
+      <workItem from="1592269621869" duration="1174000" />
+      <workItem from="1592271958889" duration="268000" />
+      <workItem from="1593655410705" duration="12288000" />
+      <workItem from="1593738830481" duration="1112000" />
     </task>
     <task id="LOCAL-00001" summary="Resource类加注释 测试是否可提交">
       <created>1582680441073</created>
@@ -151,7 +415,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Resource类加注释 测试是否可提交" />
@@ -160,69 +436,63 @@
     <option name="LAST_COMMIT_MESSAGE" value="1.统一资源定位 ResourceLoader&#10;&#10;2.说完ResourceLoader的具体实现  跳 DefaultResourceLoader  复习了类加载器 解析完了&#10;getResource ()方法 太累了 不想看了 去写1个小时代码睡觉了" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2472" y="182" key="#Notifications" timestamp="1582680465338">
+    <state x="2672" y="378" width="509" height="397" key="#Scopes" timestamp="1593675069363">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="182" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582680465338" />
-    <state x="2596" y="372" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1582718221846">
+    <state x="2672" y="378" width="509" height="397" key="#Scopes/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593675069363" />
+    <state x="752" y="378" key="#Scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1592219970508" />
+    <state x="2596" y="303" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1593659618787">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2596" y="372" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582718221846" />
-    <state x="2472" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582715520844">
+    <state x="2596" y="303" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593659618787" />
+    <state width="1877" height="425" key="GridCell.Tab.0.bottom" timestamp="1593690996017">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582715520844" />
-    <state x="2685" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1582805169939">
+    <state width="1877" height="425" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593690996017" />
+    <state width="1877" height="425" key="GridCell.Tab.0.center" timestamp="1593690996017">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2685" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582805169939" />
-    <state x="2560" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1582467343420">
+    <state width="1877" height="425" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593690996017" />
+    <state width="1877" height="425" key="GridCell.Tab.0.left" timestamp="1593690996016">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2560" y="250" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582467343420" />
-    <state x="1920" y="116" key="CommitChangelistDialog2" timestamp="1582811872688">
+    <state width="1877" height="425" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593690996016" />
+    <state width="1877" height="425" key="GridCell.Tab.0.right" timestamp="1593690996017">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="1920" y="116" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582811872688" />
-    <state x="2104" y="92" key="DiffContextDialog" timestamp="1582680410629">
+    <state width="1877" height="425" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593690996017" />
+    <state width="1877" height="425" key="GridCell.Tab.1.bottom" timestamp="1593690996017">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2104" y="92" key="DiffContextDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582680410629" />
-    <state x="2660" y="269" key="FileChooserDialogImpl" timestamp="1583143441075">
+    <state width="1877" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593690996017" />
+    <state width="1877" height="425" key="GridCell.Tab.1.center" timestamp="1593690996017">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="269" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583143441075" />
-    <state x="2460" y="258" key="IDE.errors.dialog" timestamp="1582467328112">
+    <state width="1877" height="425" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593690996017" />
+    <state width="1877" height="425" key="GridCell.Tab.1.left" timestamp="1593690996017">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2460" y="258" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582467328112" />
-    <state x="2520" y="224" key="NewModule_or_Project.wizard" timestamp="1583143282374">
+    <state width="1877" height="425" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593690996017" />
+    <state width="1877" height="425" key="GridCell.Tab.1.right" timestamp="1593690996017">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2520" y="224" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583143282374" />
-    <state x="2383" y="165" width="1333" height="709" key="SettingsEditor" timestamp="1582722921786">
+    <state width="1877" height="425" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593690996017" />
+    <state x="2460" y="254" key="IDE.errors.dialog" timestamp="1593678827685">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2383" y="165" width="1333" height="709" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582722921786" />
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1582811878904">
+    <state x="2460" y="254" key="IDE.errors.dialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593678827685" />
+    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592218982301" />
+    <state x="2747" y="165" key="SettingsEditor" timestamp="1593659620461">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582811878904" />
-    <state x="2572" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1582851136841">
+    <state x="2747" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593659620461" />
+    <state x="2583" y="236" width="642" height="568" key="find.popup" timestamp="1593674040819">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2572" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582851136841" />
-    <state x="2254" y="228" key="new project wizard" timestamp="1582766165431">
+    <state x="2583" y="236" width="642" height="568" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593674040819" />
+    <state x="2536" y="240" key="run.anything.popup" timestamp="1593674034096">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2254" y="228" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582766165431" />
-    <state x="2536" y="240" key="run.anything.popup" timestamp="1582723152540">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1582723152540" />
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583143587825">
-      <screen x="1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1583143587825" />
+    <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1593674034096" />
   </component>
 </project>
